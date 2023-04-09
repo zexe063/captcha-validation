@@ -31,7 +31,7 @@ body{
     background-color: #fff;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0), px -5px 5px rgba(0, 0, 0, 0.1);
     width: 270px;
-    height: 150px;
+    height: 160px;
     border-radius: 8px;
  
 }
@@ -115,6 +115,19 @@ background-color: deepskyblue;
  cursor: pointer;
  
  
+}
+
+.container .captchacheck .error{
+position: relative;
+top: 5px;
+left: 10px;
+font-family: 'Poppins', sans-serif;
+font-size: 11px;
+color: red;
+
+}
+.container.valid .captchacheck .error{
+    color: #21a935
 }
 .container .captchacheck input[placeholder="Enter The Captcha"]{
 font-family: 'Poppins', sans-serif;
